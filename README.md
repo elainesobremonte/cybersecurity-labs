@@ -1,54 +1,38 @@
-# Wireshark Network Traffic Analysis
+# Cybersecurity Labs
 
-## Overview
+Welcome to my cybersecurity learning portfolio. This repository documents practical exercises as I build foundational skills in network traffic analysis, Windows security log analysis, and security monitoring.
 
-This project documents a beginner cybersecurity lab focused on network traffic analysis using Wireshark. The exercise involved capturing live network traffic, examining DNS queries, inspecting TCP ports and flags, and verifying a TCP three-way handshake.
+## Labs
 
-## Objectives
+### Lab 1: Network Traffic Analysis with Wireshark
 
-- Capture and inspect network packets using Wireshark.
-- Identify DNS query types and interpret DNS activity.
-- Examine TCP source ports, destination ports, and flags.
-- Verify the sequence of a TCP three-way handshake.
-- Document findings using evidence-based security analysis.
+**Objective:** Analyze captured network traffic to identify DNS activity and examine TCP connection establishment.
 
-## Tools and Environment
+**Tools:** Wireshark
 
-- **Wireshark:** Version 4.6.9
-- **Operating system:** Windows 11
-- **Network interface:** Wi-Fi
-- **Capture format:** PCAPNG
+**Topics covered:**
+- DNS query and response inspection
+- TCP ports and packet flags
+- TCP three-way handshake
+- Evidence-based network traffic assessment
 
-## Key Findings
+[View Lab 1 Report](Lab-1-Network-Traffic-Analysis/report.md) | [View Lab 1 Evidence](Lab-1-Network-Traffic-Analysis/evidence/)
 
-- Observed a DNS A-record query for `www.facebook.com`.
-- Identified TCP communication involving ports 64541 and 443.
-- Verified packets consistent with the TCP three-way handshake: SYN, SYN-ACK, and ACK.
-- Practiced distinguishing observed evidence from conclusions that require further investigation.
+### Lab 2: Windows Security Log Analysis
 
-## Security Assessment
+**Objective:** Review Windows Security events to understand successful and failed logon activity.
 
-The inspected DNS and TCP packets were consistent with routine network communication. No specific security incident was established from the examined evidence. This limited exercise does not establish that all captured traffic was benign.
+**Tools:** Windows Event Viewer
 
-## Repository Contents
+**Topics covered:**
+- Event IDs 4624 and 4625
+- Windows logon types
+- Authentication failure analysis
+- Event timeline review
+- Security assessment and documentation
 
-- `README.md` — Project overview and key findings.
-- `lab-report.md` — Full methodology, observations, analysis, limitations, and conclusion.
-- `evidence/` — Sanitized screenshots supporting the analysis.
+*Report and evidence to be added.*
 
-## Skills Practiced
+## About This Portfolio
 
-- Network traffic capture and filtering
-- DNS packet inspection
-- TCP port and flag analysis
-- TCP handshake verification
-- Technical documentation
-- Evidence-based security assessment
-
-## Limitations
-
-This was a beginner lab using a limited packet capture. It did not involve a full incident investigation, endpoint telemetry correlation, or SIEM alert analysis.
-
-## Disclaimer
-
-This project was conducted for educational purposes using ordinary network activity. Findings are limited to the evidence examined in the lab.
+These labs are personal learning exercises designed to strengthen my foundational understanding of cybersecurity concepts and security monitoring. Findings are based on the evidence collected in each exercise, and conclusions are limited to what the available data supports.
