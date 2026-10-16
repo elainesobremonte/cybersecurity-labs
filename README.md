@@ -34,7 +34,7 @@ The inspected DNS and TCP packets were consistent with routine network communica
 
 - `README.md` — Project overview and key findings.
 - `lab-report.md` — Full methodology, observations, analysis, limitations, and conclusion.
-- `evidence/` — Sanitized screenshots supporting the analysis, when available.
+- `evidence/` — Sanitized screenshots supporting the analysis.
 
 ## Skills Practiced
 
