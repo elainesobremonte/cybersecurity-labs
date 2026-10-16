@@ -117,6 +117,3 @@ This lab provided practical experience with Wireshark and fundamental network tr
 It also reinforced the importance of evidence-based analysis. Rather than labeling traffic as safe or malicious based on a single field, network activity should be interpreted using packet direction, protocol behavior, and relevant context.
 
 These skills provide a foundation for further SOC analyst training in network monitoring, alert investigation, log correlation, and incident documentation.
-
-## 8. Evidence and Supporting Materials
-
