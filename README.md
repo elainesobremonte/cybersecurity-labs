@@ -2,7 +2,7 @@
 
 Welcome to my cybersecurity learning portfolio. This repository documents practical exercises as I build foundational skills in network traffic analysis, Windows security log analysis, and security monitoring.
 
-## Labs
+## Hands-on Labs
 
 ### Lab 1: Network Traffic Analysis with Wireshark
 
@@ -31,7 +31,7 @@ Welcome to my cybersecurity learning portfolio. This repository documents practi
 - Event timeline review
 - Security assessment and documentation
 
-*Report and evidence to be added.*
+[View Lab 2 Report](Lab-2-Windows-Security-Log-Analysis/report.md) | [View Lab 2 Evidence](Lab-2-Windows-Security-Log-Analysis/evidence/)
 
 ## About This Portfolio
 
