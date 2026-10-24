@@ -1,19 +1,19 @@
-# Cybersecurity Labs
+# Cybersecurity Labs Portfolio
 
-Welcome to my cybersecurity learning portfolio. This repository documents practical exercises as I build foundational skills in network traffic analysis, Windows security log analysis, and security monitoring.
+Welcome to my cybersecurity learning portfolio. This repository documents hands-on exercises and simulated investigations as I develop foundational skills in network traffic analysis, Windows security monitoring, authentication analysis, phishing investigation, and endpoint process investigation.
 
 ## Hands-on Labs
 
 ### Lab 1: Network Traffic Analysis with Wireshark
 
-**Objective:** Analyze captured network traffic to identify DNS activity and examine TCP connection establishment.
+**Objective:** Analyze network traffic to identify DNS activity and examine TCP connection establishment.
 
 **Tools:** Wireshark
 
-**Topics covered:**
-- DNS query and response inspection
+**Skills demonstrated:**
+- DNS query inspection
 - TCP ports and packet flags
-- TCP three-way handshake
+- TCP three-way handshake analysis
 - Evidence-based network traffic assessment
 
 [View Lab 1 Report](Lab-1-Network-Traffic-Analysis/report.md) | [View Lab 1 Evidence](Lab-1-Network-Traffic-Analysis/evidence/)
@@ -24,53 +24,60 @@ Welcome to my cybersecurity learning portfolio. This repository documents practi
 
 **Tools:** Windows Event Viewer
 
-**Topics covered:**
-- Event IDs 4624 and 4625
+**Skills demonstrated:**
+- Windows Security Event IDs 4624 and 4625
 - Windows logon types
 - Authentication failure analysis
 - Event timeline review
-- Security assessment and documentation
+- Security event documentation
 
 [View Lab 2 Report](Lab-2-Windows-Security-Log-Analysis/report.md) | [View Lab 2 Evidence](Lab-2-Windows-Security-Log-Analysis/evidence/)
 
-## About This Portfolio
-
-These labs are personal learning exercises designed to strengthen my foundational understanding of cybersecurity concepts and security monitoring. Findings are based on the evidence collected in each exercise, and conclusions are limited to what the available data supports.
-
 ### Lab 3: Suspicious Authentication Activity Analysis
 
-- **Objective:** Identify and investigate suspicious authentication patterns using simulated logs.
-- **Tools:** Simulated authentication log dataset and manual log review.
-- **Skills demonstrated:** Authentication-log analysis, suspicious activity detection, preliminary alert triage, and evidence-based reporting.
-- **Report:** [View Lab 3 Report](Lab-3-Suspicious-Authentication-Activity-Analysis/report.md)
+**Objective:** Identify and assess potentially suspicious authentication patterns using simulated log data.
+
+**Tools:** Simulated authentication logs and manual analysis
+
+**Skills demonstrated:**
+- Authentication log review
+- Identification of repeated failed logins followed by a successful login
+- Preliminary alert triage
+- Evidence-based assessment and reporting
+
+[View Lab 3 Report](Lab-3-Suspicious-Authentication-Activity-Analysis/report.md)
 
 ### Lab 4: Phishing Email Analysis
 
-- **Objective:** Identify potential phishing indicators and recommend safe investigation steps.
-- **Tools:** Simulated email, web browser, and text editor.
-- **Skills demonstrated:** Phishing triage, sender verification, URL inspection, evidence-based assessment, and security reporting.
-- **Report:** [View Lab 4 Report](Lab-4-Phishing-Email-Analysis/report.md)
+**Objective:** Assess a simulated email for potential phishing indicators and identify safe investigation steps.
 
-Lab 5: Windows Process Investigation
+**Tools:** Simulated email data and manual analysis
 
-Objective: Inspect Windows processes, review application file locations and digital signatures, and examine startup applications.
+**Skills demonstrated:**
+- Sender and email content analysis
+- Identification of urgency and account-threat indicators
+- Safe URL inspection practices
+- Phishing triage and evidence-based reporting
 
-Tools: Windows 11 Task Manager and File Properties
+[View Lab 4 Report](Lab-4-Phishing-Email-Analysis/report.md)
 
-Skills demonstrated:
+### Lab 5: Windows Process Investigation
 
-Process identification and resource monitoring
+**Objective:** Inspect Windows processes, review application file locations and digital signatures, and examine startup applications.
 
-Executable file location inspection
+**Tools:** Windows 11 Task Manager and File Properties
 
-Digital signature verification
+**Skills demonstrated:**
+- Process identification and resource monitoring
+- Executable file location inspection
+- Digital signature verification
+- Startup application review
+- Evidence-based endpoint investigation
 
-Startup application review
+[View Lab 5 Report](Lab-5-Windows-Process-Investigation/report.md) | [View Lab 5 Evidence](Lab-5-Windows-Process-Investigation/evidence/)
 
-Evidence-based endpoint investigation
-
-View Lab 5 Report | View Lab 5 Evidence
-
-About This Portfolio
+## About This Portfolio
 
 These labs are personal learning exercises designed to strengthen my foundational cybersecurity knowledge and practical investigation skills. Some exercises use simulated data. Findings and conclusions are limited to the evidence collected, and suspicious activity is not treated as confirmed malicious activity without sufficient supporting evidence.
+
+This portfolio reflects my ongoing learning and development toward an entry-level cybersecurity or Security Operations Center (SOC) role.
