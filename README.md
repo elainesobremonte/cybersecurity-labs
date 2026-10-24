@@ -36,3 +36,10 @@ Welcome to my cybersecurity learning portfolio. This repository documents practi
 ## About This Portfolio
 
 These labs are personal learning exercises designed to strengthen my foundational understanding of cybersecurity concepts and security monitoring. Findings are based on the evidence collected in each exercise, and conclusions are limited to what the available data supports.
+
+### Lab 3: Suspicious Authentication Activity Analysis
+
+- **Objective:** Identify and investigate suspicious authentication patterns using simulated logs.
+- **Tools:** Simulated authentication log dataset and manual log review.
+- **Skills demonstrated:** Authentication-log analysis, suspicious activity detection, preliminary alert triage, and evidence-based reporting.
+- **Report:** [View Lab 3 Report](Lab-3-Suspicious-Authentication-Activity-Analysis/report.md)
