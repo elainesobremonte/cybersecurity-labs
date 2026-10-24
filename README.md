@@ -43,3 +43,10 @@ These labs are personal learning exercises designed to strengthen my foundationa
 - **Tools:** Simulated authentication log dataset and manual log review.
 - **Skills demonstrated:** Authentication-log analysis, suspicious activity detection, preliminary alert triage, and evidence-based reporting.
 - **Report:** [View Lab 3 Report](Lab-3-Suspicious-Authentication-Activity-Analysis/report.md)
+
+### Lab 4: Phishing Email Analysis
+
+- **Objective:** Identify potential phishing indicators and recommend safe investigation steps.
+- **Tools:** Simulated email, web browser, and text editor.
+- **Skills demonstrated:** Phishing triage, sender verification, URL inspection, evidence-based assessment, and security reporting.
+- **Report:** [View Lab 4 Report](Lab-4-Phishing-Email-Analysis/report.md)
