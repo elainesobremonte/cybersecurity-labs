@@ -50,3 +50,27 @@ These labs are personal learning exercises designed to strengthen my foundationa
 - **Tools:** Simulated email, web browser, and text editor.
 - **Skills demonstrated:** Phishing triage, sender verification, URL inspection, evidence-based assessment, and security reporting.
 - **Report:** [View Lab 4 Report](Lab-4-Phishing-Email-Analysis/report.md)
+
+Lab 5: Windows Process Investigation
+
+Objective: Inspect Windows processes, review application file locations and digital signatures, and examine startup applications.
+
+Tools: Windows 11 Task Manager and File Properties
+
+Skills demonstrated:
+
+Process identification and resource monitoring
+
+Executable file location inspection
+
+Digital signature verification
+
+Startup application review
+
+Evidence-based endpoint investigation
+
+View Lab 5 Report | View Lab 5 Evidence
+
+About This Portfolio
+
+These labs are personal learning exercises designed to strengthen my foundational cybersecurity knowledge and practical investigation skills. Some exercises use simulated data. Findings and conclusions are limited to the evidence collected, and suspicious activity is not treated as confirmed malicious activity without sufficient supporting evidence.
