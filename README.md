@@ -79,5 +79,3 @@ Welcome to my cybersecurity learning portfolio. This repository documents hands-
 ## About This Portfolio
 
 These labs are personal learning exercises designed to strengthen my foundational cybersecurity knowledge and practical investigation skills. Some exercises use simulated data. Findings and conclusions are limited to the evidence collected, and suspicious activity is not treated as confirmed malicious activity without sufficient supporting evidence.
-
-This portfolio reflects my ongoing learning and development toward an entry-level cybersecurity or Security Operations Center (SOC) role.
