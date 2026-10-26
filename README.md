@@ -79,3 +79,16 @@ Welcome to my cybersecurity learning portfolio. This repository documents hands-
 ## About This Portfolio
 
 These labs are personal learning exercises designed to strengthen my foundational cybersecurity knowledge and practical investigation skills. Some exercises use simulated data. Findings and conclusions are limited to the evidence collected, and suspicious activity is not treated as confirmed malicious activity without sufficient supporting evidence.
+
+### Lab 6: Security Alert Communication and Triage
+
+**Objective:** Assess simulated suspicious authentication activity and communicate the findings through a structured security alert.
+
+**Skills demonstrated:**
+- Authentication alert triage
+- Preliminary priority assessment
+- Security notification writing
+- Risk communication and recommended actions
+- Evidence-based reporting
+
+[View Lab 6 Report](Lab-6-Client-Security-Alert/report.md)
