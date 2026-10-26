@@ -100,12 +100,14 @@ These labs are personal learning exercises designed to strengthen my foundationa
 **Tools:** Suricata 8.0.7, Npcap 1.90, Windows 11, EVE JSON, and Suricata statistics logs.
 
 **Activities:**
+
 - Configured Suricata using selected available protocol-event rule files.
 - Validated the configuration and analyzed a sample PCAP offline.
 - Examined DNS event records and processing statistics.
 - Checked alert records and reviewed the limitations of the configured ruleset.
 
 **Key Findings:**
+
 - Processed **38 packets** totaling **3,706 bytes**.
 - Observed **8 UDP flows** and **38 DNS transactions**.
 - Reviewed DNS queries for `google.com`, `isc.org`, and `_ldap._tcp.dc._msdcs.utelsystems.local`.
@@ -118,4 +120,3 @@ These labs are personal learning exercises designed to strengthen my foundationa
 **Evidence:** See [`Lab 7 Evidence`](Lab-7-Suricata-IDS-Analysis/Evidence/) for screenshots of the version information, PCAP processing, DNS event logs, and statistics.
 
 **Detailed Report:** [`Lab 7 — Suricata IDS Analysis`](Lab-7-Suricata-IDS-Analysis/)
-
