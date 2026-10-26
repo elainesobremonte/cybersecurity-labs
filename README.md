@@ -92,3 +92,30 @@ These labs are personal learning exercises designed to strengthen my foundationa
 - Evidence-based reporting
 
 [View Lab 6 Report](Lab-6-Client-Security-Alert/report.md)
+
+## Lab 7: Suricata IDS — Offline PCAP Analysis
+
+**Objective:** Use Suricata, an open-source Network Intrusion Detection System (IDS), to analyze a packet capture offline, inspect DNS activity, and review network event logs.
+
+**Tools:** Suricata 8.0.7, Npcap 1.90, Windows 11, EVE JSON, and Suricata statistics logs.
+
+**Activities:**
+- Configured Suricata using selected available protocol-event rule files.
+- Validated the configuration and analyzed a sample PCAP offline.
+- Examined DNS event records and processing statistics.
+- Checked alert records and reviewed the limitations of the configured ruleset.
+
+**Key Findings:**
+- Processed **38 packets** totaling **3,706 bytes**.
+- Observed **8 UDP flows** and **38 DNS transactions**.
+- Reviewed DNS queries for `google.com`, `isc.org`, and `_ldap._tcp.dc._msdcs.utelsystems.local`.
+- Found **no alert events** in `eve.json`; `fast.log` remained empty.
+
+**Outcome:** Practiced offline network traffic analysis, DNS event inspection, and log-based investigation. The absence of alert events was not treated as proof that the traffic was benign.
+
+**Limitations:** This exercise used a historical sample capture rather than live traffic and a limited set of available rule files. Suricata also reported a missing `threshold.config` file and an unavailable `setrlimit` function during execution.
+
+**Evidence:** See [`Lab 7 Evidence`](Lab-7-Suricata-IDS-Analysis/Evidence/) for screenshots of the version information, PCAP processing, DNS event logs, and statistics.
+
+**Detailed Report:** [`Lab 7 — Suricata IDS Analysis`](Lab-7-Suricata-IDS-Analysis/)
+
