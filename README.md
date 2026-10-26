@@ -112,5 +112,4 @@ These labs are personal learning exercises designed to strengthen my foundationa
 - Examined DNS queries for `google.com`, `isc.org`, and `_ldap._tcp.dc._msdcs.utelsystems.local`.
 - No alert events were found in `eve.json`; `fast.log` remained empty.
 
-**Report:** [Lab 7 — Suricata IDS Analysis](https://github.com/elainesobremonte/cybersecurity-labs/blob/main/Lab-7-Suricata-IDS-Analysis/README.md)
-**Evidence:** [View Lab 7 Evidence](Lab-7-Suricata-IDS-Analysis/Evidence/)
+[View Lab 7 Report](Lab-7-Suricata-IDS-Analysis/report.md) | [View Lab 7 Evidence](Lab-7-Suricata-IDS-Analysis/Evidence/)
