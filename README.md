@@ -93,30 +93,25 @@ These labs are personal learning exercises designed to strengthen my foundationa
 
 [View Lab 6 Report](Lab-6-Client-Security-Alert/report.md)
 
-## Lab 7: Suricata IDS — Offline PCAP Analysis
+### Lab 7: Suricata IDS — Offline PCAP Analysis
 
-**Objective:** Use Suricata, an open-source Network Intrusion Detection System (IDS), to analyze a packet capture offline, inspect DNS activity, and review network event logs.
+**Objective:** Analyze a sample network packet capture using Suricata to inspect DNS activity and review IDS event logs.
 
-**Tools:** Suricata 8.0.7, Npcap 1.90, Windows 11, EVE JSON, and Suricata statistics logs.
+**Tools:** Suricata 8.0.7, Npcap 1.90, Windows 11
 
-**Activities:**
-
-- Configured Suricata using selected available protocol-event rule files.
-- Validated the configuration and analyzed a sample PCAP offline.
-- Examined DNS event records and processing statistics.
-- Checked alert records and reviewed the limitations of the configured ruleset.
+**Topics Covered:**
+- Suricata IDS configuration and validation
+- Offline PCAP analysis
+- DNS event inspection using EVE JSON logs
+- Packet, UDP flow, and DNS transaction statistics
+- Alert review and interpretation of IDS findings
 
 **Key Findings:**
+- Processed 38 packets totaling 3,706 bytes.
+- Observed 8 UDP flows and 38 DNS transactions.
+- Examined DNS queries for `google.com`, `isc.org`, and `_ldap._tcp.dc._msdcs.utelsystems.local`.
+- No alert events were found in `eve.json`; `fast.log` remained empty.
 
-- Processed **38 packets** totaling **3,706 bytes**.
-- Observed **8 UDP flows** and **38 DNS transactions**.
-- Reviewed DNS queries for `google.com`, `isc.org`, and `_ldap._tcp.dc._msdcs.utelsystems.local`.
-- Found **no alert events** in `eve.json`; `fast.log` remained empty.
+**Report:** [Lab 7 — Suricata IDS Analysis](Lab-7-Suricata-IDS-Analysis/)
 
-**Outcome:** Practiced offline network traffic analysis, DNS event inspection, and log-based investigation. The absence of alert events was not treated as proof that the traffic was benign.
-
-**Limitations:** This exercise used a historical sample capture rather than live traffic and a limited set of available rule files. Suricata also reported a missing `threshold.config` file and an unavailable `setrlimit` function during execution.
-
-**Evidence:** See [`Lab 7 Evidence`](Lab-7-Suricata-IDS-Analysis/Evidence/) for screenshots of the version information, PCAP processing, DNS event logs, and statistics.
-
-**Detailed Report:** [`Lab 7 — Suricata IDS Analysis`](Lab-7-Suricata-IDS-Analysis/)
+**Evidence:** [View Lab 7 Evidence](Lab-7-Suricata-IDS-Analysis/Evidence/)
